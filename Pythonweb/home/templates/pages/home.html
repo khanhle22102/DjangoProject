@@ -1,0 +1,129 @@
+{% extends "pages/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% load static %}
+<div class="hp-slide-show" id="hp-slide">
+    <table>
+        <tr>
+            <td class="hp-logo-motto">
+                <p><b class="hp-main-logo font-logo">KAISERIN</b><br><b class="hp-main-motto font-normal">Enhance. Enpower.
+                        Embrace</b>
+                </p>
+            </td>
+            <td class="hp-ad-intro">
+                <p class="text-bold font-normal">Become one of our members <br> to enjoy eclusive services</p>
+                <button class="hp-register-btn font-normal">JOIN US TODAY</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="hp-even-div">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{% static 'images/product1.png' %}" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="hp-brief-description">
+                    <h1 class="hp-title">Alienware Gaming Desktop</h1>
+                    <p class="text-normal"><b>Immersive Gaming Experience | Starting at $1,199.99</b></p>
+                    <p>Experience high-performance gaming with iconic designs and intelligently engineered desktops.
+                    </p>
+                    <div class="text-normal">
+                        <button class="hp-shop-btn">Shop Alienware</button>
+                        <button class="hp-explore-btn">Explore Alienware</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hp-odd-div">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="hp-brief-description">
+                    <h1 class="hp-title">Gaming PC Deals</h1>
+                    <p class="text-normal"><b>Our best-priced gaming computers</b></p>
+                    <p>Take advantage of limited-time savings on select Alienware and G Series PCs. Shop our deals
+                        and get the best for less.</p>
+                    <div class="text-normal">
+                        <button class="hp-shop-btn">Shop Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="{% static 'images/product2.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hp-even-div">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{% static 'images/product3.png' %}" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="hp-brief-description">
+                    <h1 class="hp-title">Gaming Monitors</h1>
+                    <p class="text-normal"><b>Performance gaming displays</b></p>
+                    <p>Lose yourself in pulse-pounding gameplay with our performance gaming monitors featuring high
+                        refresh rates, vivid color and sharp visuals.</p>
+                    <div class="text-normal">
+                        <button class="hp-shop-btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hp-odd-div">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="hp-brief-description">
+                    <h1 class="hp-title">Free of Choices</h1>
+                    <p class="text-normal"><b>Various selection for your gaming setup</b></p>
+                    <p>Beside Alienware we also provide a large pool of glow-ups with the most stylish and
+                        oustanding designs</p>
+                    <hr>
+                    </hr>
+                    <div>
+                        <h5 class="p-lines-title">Product Lines:</h5>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="checkbox-wrap2 text-normal">
+                                        <a class="general-link" href="#">ROG Strix</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="checkbox-wrap2 text-normal">
+                                        <a class="general-link" href="#">Lenovo Legion</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="checkbox-wrap2 text-normal">
+                                        <a class="general-link" href="#">MSI Katana</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="checkbox-wrap2 text-normal">
+                                        <a class="general-link" href="#">Gigabyte Series</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="{% static 'images/product4.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

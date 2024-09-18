@@ -1,0 +1,10 @@
+{% extends "pages/base.html" %}
+
+{% block title %}Products{% endblock %}
+
+{% block content %}
+<div style='margin-top: 60px;'></div>
+{% for product in Products %}
+<h4>{{ product.created_at|date:"d-m-Y" }} <a href="/products/{{ product.id }}">{{ product.title }}</a></h4>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "Anurati";
+    src: url("assets/Anurati.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat.ttf") format("opentype");
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+.font-regular {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-logo {
+    font-family: 'Anurati';
+}
+
+.text-size-13 {
+    font-size: 13px;
+}
+
+.hp-top-nav {
+    background-color: #1b1b1b;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.hp-drop-nav {
+    display: none;
+}
+
+.hp-nav-btn {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    border-bottom: solid #1b1b1b 2px;
+}
+
+.hp-nav-sub:hover {
+    border-bottom: solid white 2px;
+}
+
+.hp-nav-split {
+    float: right;
+    color: white;
+}
+
+
+.hp-slide-show {
+    height: 700px;
+    background-image: url(assets/desktop1.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(100%);
+    background-color: #1b1b1b;
+    transition: background-image 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hp-slide-show table td {
+    padding: 15px;
+}
+
+.hp-logo-motto {
+    border-right: solid black 2px;
+}
+
+.hp-main-logo {
+    font-size: 60px;
+    background-image: linear-gradient(to bottom, black, #4b0082);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.hp-main-motto {
+    color: #4b0082;
+}
+
+.hp-register-btn {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #4b0082;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0% 25%);
+    transition: background 0.3s ease-in-out;
+    border: none;
+}
+
+.hp-register-btn:hover {
+    background-color: black;
+}
+
+.foot-wording {
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+.social-media i {
+    margin-right: 10px;
+}
+
+.foot-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-even-div {
+    background-color: #2E2E2E;
+    padding: 30px;
+    color: white;
+}
+
+.hp-odd-div {
+    background-color: #1b1b1b;
+    padding: 30px;
+    color: white;
+}
+
+.foot-div {
+    background-color: #1b1b1b;
+    padding: 5px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hp-even-div img {
+    width: 100%;
+    height: auto;
+}
+
+.hp-odd-div img {
+    width: 100%;
+    height: auto;
+}
+
+.hp-brief-description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category-banner {
+    height: 100%;
+}
+
+.hp-shop-btn {
+    padding: 10px;
+    color: white;
+    margin-right: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: #008259;
+    border: none;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0% 25%);
+}
+
+.checkbox-wrap {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #1b1b1b;
+    border: solid 1px #749bff;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0% 25%);
+}
+
+.checkbox-wrap2 {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #1b1b1b;
+    border-left: solid 5px #ff5e5e;
+    border-bottom: solid 1px #ff5e5e;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 75%, 95% 100%, 0% 100%, 0% 25%);
+}
+
+.hp-explore-btn {
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    background-color: #2E2E2E;
+    border: solid 1px #008259;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0% 25%);
+}
+
+.general-link {
+    text-decoration: none;
+    color: white;
+}
+
+.sized-box {
+    height: 30px;
+}
+
+.hp-title {
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+
+.sized-box {
+    height: 10px;
+}
+
+.sized-box2 {
+    height: 20px;
+}
+
+.sized-box3 {
+    height: 30px;
+}

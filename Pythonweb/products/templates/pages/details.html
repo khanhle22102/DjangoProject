@@ -1,0 +1,10 @@
+{% extends "pages/base.html" %}
+
+{% block title %}Products{% endblock %}
+
+{% block content %}
+<div style='margin-top: 60px;'></div>
+<h3><a href='products/{{product.id}}'>{{product.title}}</a></h3>
+<h6>on {{product.created_at}}</h6>
+{{product.specs|safe|linebreaks}}
+{% endblock %}
